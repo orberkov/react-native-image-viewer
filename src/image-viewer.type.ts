@@ -136,7 +136,7 @@ export class Props {
     return React.createElement(
       View,
       { style: simpleStyle.count },
-      React.createElement(Text, { style: simpleStyle.countText }, currentIndex + '/' + allSize)
+      React.createElement(Text, { style: simpleStyle.countText }, currentIndex + '/123/' + allSize)
     );
   };
 
